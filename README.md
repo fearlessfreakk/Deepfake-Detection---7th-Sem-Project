@@ -121,11 +121,6 @@ Deepfake_detection_using_deep_learning/
 │   ├── Model_and_train_csv.ipynb   # PyTorch model training pipeline
 │   ├── Predict.ipynb               # Standalone prediction test notebook
 │   └── Helpers/                    # Dataset preparation & balancing scripts
-├── Documentation/                  # Research documentation & reports
-│   ├── Project Report.pdf          # Full academic project report
-│   ├── ESE presentation.pptx       # Presentation slide deck
-│   ├── IJSRDV8I10860.pdf           # Research reference paper
-│   └── B1_poster .pdf              # Project presentation poster
 ├── models/                         # Pretrained PyTorch weight checkpoints (.pt)
 ├── github_assets/                  # Visual assets (architecture diagram, demo gif)
 ├── run_local.bat                   # 1-click Windows Batch launch script
