@@ -43,6 +43,21 @@ The core architecture uses a hybrid **Spatio-Temporal Deep Learning** approach c
   <img src="github_assets/System%20Architecture.png" alt="System Architecture Diagram" width="750" />
 </p>
 
+### 4. Detailed Model Architecture & Tensor Flow
+<p align="center">
+  <img src="github_assets/model_architecture.png" alt="Hybrid ResNeXt50 + LSTM Model Architecture" width="850" />
+</p>
+
+### 5. Django Application Workflow, Filesystem & Database Flow
+<p align="center">
+  <img src="github_assets/django_workflow_db_flow.png" alt="Django Application Workflow and SQLite Database Flow" width="850" />
+</p>
+
+### 6. Offline Preprocessing & Training Pipeline
+<p align="center">
+  <img src="github_assets/training_and_preprocessing_pipeline.png" alt="Offline Preprocessing and Training Pipeline" width="850" />
+</p>
+
 ---
 
 ## Key Features & Highlights
@@ -80,6 +95,10 @@ The model was evaluated across multiple frame sequence lengths using balanced be
 1. **Correlation with Sequence Length**: Model accuracy steadily increases with longer frame sequences—from **84.21%** (10 frames) to **93.59%** (100 frames).
 2. **Temporal Cue Importance**: The ~9.4% accuracy gain when increasing frames from 10 to 100 confirms that temporal consistency provides critical discriminative signals that single-frame detectors miss.
 3. **Inference Trade-off**: Shorter sequence models (e.g., 10 or 20 frames) provide faster inference latency suitable for near-real-time evaluation, whereas 100-frame sequences yield maximum forensic precision.
+
+<p align="center">
+  <img src="github_assets/model_performance_comparison.png" alt="Validation Accuracy vs Sequence Length and Stored Checkpoints" width="850" />
+</p>
 
 ---
 
