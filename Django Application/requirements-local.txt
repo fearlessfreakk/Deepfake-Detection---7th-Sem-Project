@@ -1,0 +1,16 @@
+# Core Web Framework
+Django>=5.0,<5.2
+
+# Deep Learning Framework
+torch
+torchvision
+
+# Numerical and Image Processing
+numpy<2.0.0
+opencv-python
+pillow
+matplotlib
+
+# Face Detection (dlib-bin provides precompiled Windows wheels for Python 3.12)
+dlib-bin
+face-recognition
